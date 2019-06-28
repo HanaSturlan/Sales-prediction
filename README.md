@@ -28,7 +28,7 @@ Data is stationary if:
 Stationarity was checked by Dickey-Fuller Test: This is one of the statistical tests for checking stationarity. Here the null hypothesis is that the time series is non-stationary. The test results comprise of a Test Statistic and some Critical Values for difference confidence levels. If the ‘Test Statistic’ is less than the ‘Critical Value’, we can reject the null hypothesis and say that the series is stationary.
 
 Transformation of data to create stationary data : 
-1. ake natural logarithm of data
+1. take natural logarithm of data
 2. substract moving average of data from data
 3. create The exponential moving average (EMA) is a weighted average of the last n prices, where the weighting decreases exponentially with each previous price/period. In other words, the formula gives recent prices more weight than past prices
 4. substract log data and ema
